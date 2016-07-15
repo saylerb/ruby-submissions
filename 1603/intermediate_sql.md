@@ -6,7 +6,7 @@ gist:
 
 ### Brian Sayler
 
-gist:
+gist: https://gist.github.com/saylerb/e782a62ce150c1d9617dae159bdb9a8a
 
 ### Charles Kaminer
 
