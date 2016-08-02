@@ -1,6 +1,6 @@
 ### Anna Weisbrodt: https://github.com/AnnaCW/module_3_assessment
 
-### Brian Sayler
+### Brian Sayler https://github.com/saylerb/module_3_assessment
 
 ### Charles Kaminer
 
