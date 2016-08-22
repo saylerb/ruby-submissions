@@ -1,5 +1,3 @@
-Complete this form and the README.md before the first check in. Delete this line from your version.
-
 # Game Time Check In # 1
 
 ## Basics
@@ -106,7 +104,6 @@ Players try to capture a flag and return it to their home base to score points.
 - Creating maps, what can we use for sprites/map graphics?
   - where to find assets
   - animations for death/
-
 
 -----
 
