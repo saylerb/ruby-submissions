@@ -94,16 +94,18 @@ Players try to capture a flag and return it to their home base to score points.
 ### What have you accomplished so far?
 
 ### Questions, Comments, Concerns?
-- Keeping track of score across sessions (instances of name)
-  - Client side without server
+
+- How do we keeping track of scores across sessions (instances of name)?
+  - client side without server
   - server side if using sockets
-- How to incorporate 'increase in difficulty'
+
+- How to incorporate 'increase in difficulty'?
   - randomize flag 
   - randomize appearance of spikes/mines
 
 - Creating maps, what can we use for sprites/map graphics?
   - where to find assets
-  - animations for death/
+  - animations for death
 
 -----
 
