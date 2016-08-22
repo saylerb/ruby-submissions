@@ -5,52 +5,108 @@ Complete this form and the README.md before the first check in. Delete this line
 ## Basics
 
 ### Team
-- [TeamMate1](https://github.com/tenderlove)
-- [TeamMate2](https://github.com/wycats)
+- [Robbie Jaeger](https://github.com/robbiejaeger)
+- [Brian Sayler](https://github.com/saylerb)
 
 ### Game Name
 
-Snek
+Capture the Flag (Working Name)
 
 ### Give a Basic Description of the Game
 
-Snek eats pellets - grows and tries not to run into itself
+Players try to capture a flag and return it to their home base to score points.
 
 ### Include a Link to or Screen Shot of the Game
 
-[Snek](http://imgur.com/gallery/owNiA)
+[TagPro](http://i.imgur.com/vh5mjA1.png)
 
 ### Link to the Github repository for the project
-[Your Repo](https://youtu.be/kZSfPPJ4Fk8)
+
+[game-time repo](https://github.com/saylerb/game-time)
 
 ## The Plan
 
 ### Describe Your goals for the finished product
 
-e.g.
+- Main Menu
+  - create new game (or join existing game if sockets)
+  - player can select timed game with rounds, or first to 10 points
 
-- Snake moves around screen
-- Snake can eat pellets
-- When a pellet is eaten, the snake grows in length
-- If the snake hits itself, the game ends
-- Snake is rainbow colored, changes color throughout game
-- If the user navigates away, snake game pauses
-- Crazy Mode makes the snake change speeds randomly
-- Pellets are instructor's faces and they make a sound when they get eaten
-- Cat mode turns the snake into Nyan Cat
+- Movement
+  - player can move around the screen using arrow keys (or WASD)  
+  - player can move diagonally (press multiple keys)
+  - player movement has realistic physics, arrrow keys accelerate 
+  - ball-to-ball colisions are realistic
+
+- Items and Obstacles
+  - items: player can pickup powerups to increase speed and invulnerability
+  - obstacles: spikes (instant death), barriers
+
+- Multiplayer
+  - node server allows people to join an existing game
+  - 2-4 players can join a game and play simulaneously
+
+- Scoring
+  - player captures flag in enemy base and returns flag to home base to score points
+  - scoring a point returns the captured flag to its base
+  - rounds are timed to 5 minutes, or first to 10 points
+  - a scoreboard at bottom of the screen indicates current score
+
+- Tagging
+  - when player has the flag, opposing players can tag that player,
+  - tagging player returns the flag to its base
+  - player dies and respawns at home base when they get tagged
+
+- Levels
+  - there are a couple maps to choose from (2 or 3)
 
 ### What is your MVP, or 'this was harder than I thought' plan?
 
-e.g.
+- Main Menu
+  - create new game (or join existing game if sockets)
+  - player can select timed game with rounds, or first to 10 points
 
-- Snake moves around screen
-- Snake can eat pellets
-- When a pellet is eaten, the snake grows in length
-- Is the snake hits itself, the game ends
+- Movement
+  - player can move around the screen using arrow keys (or WASD)  
+  - player can only move one axis at a time (no diagonal, cannot press mulitple directional keys at once) 
+  - player moves at constant rate, acceration is instant
+  - colisions stop players instantly
+
+- Obstacles
+  - obstacles: spikes only (instant death)
+
+- Multiplayer
+  - 2 players can play using arrow keys and WASD 
+
+- Scoring
+  - player captures flag in enemy base and returns flag to home base to score points
+  - scoring a point returns the captured flag to its base
+  - game is first to ~10 points
+  - a scoreboard at bottom of the screen indicates current score
+
+- Tagging
+  - when player has the flag, opposing players can tag that player,
+  - tagging player returns the flag to its base
+  - player doesn't die, just loses flag
+
+- Levels
+  - there is a single maps to choose from
+
 
 ### What have you accomplished so far?
 
 ### Questions, Comments, Concerns?
+- Keeping track of score across sessions (instances of name)
+  - Client side without server
+  - server side if using sockets
+- How to incorporate 'increase in difficulty'
+  - randomize flag 
+  - randomize appearance of spikes/mines
+
+- Creating maps, what can we use for sprites/map graphics?
+  - where to find assets
+  - animations for death/
+
 
 -----
 
