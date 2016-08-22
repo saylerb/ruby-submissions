@@ -36,14 +36,14 @@ Players try to capture a flag and return it to their home base to score points.
   - player can move around the screen using arrow keys (or WASD)  
   - player can move diagonally (press multiple keys)
   - player movement has realistic physics, arrrow keys accelerate 
-  - ball-to-ball colisions are realistic
+  - ball-to-ball collisions are realistic
 
 - Items and Obstacles
   - items: player can pickup powerups to increase speed and invulnerability
   - obstacles: spikes (instant death), barriers
 
 - Multiplayer
-  - node server allows people to join an existing game
+  - node server + socket.io allows people to join an existing game
   - 2-4 players can join a game and play simulaneously
 
 - Scoring
@@ -53,7 +53,7 @@ Players try to capture a flag and return it to their home base to score points.
   - a scoreboard at bottom of the screen indicates current score
 
 - Tagging
-  - when player has the flag, opposing players can tag that player,
+  - when player has the flag opposing players can tag that player
   - tagging player returns the flag to its base
   - player dies and respawns at home base when they get tagged
 
@@ -70,7 +70,7 @@ Players try to capture a flag and return it to their home base to score points.
   - player can move around the screen using arrow keys (or WASD)  
   - player can only move one axis at a time (no diagonal, cannot press mulitple directional keys at once) 
   - player moves at constant rate, acceration is instant
-  - colisions stop players instantly
+  - collisions stop players instantly
 
 - Obstacles
   - obstacles: spikes only (instant death)
@@ -85,12 +85,12 @@ Players try to capture a flag and return it to their home base to score points.
   - a scoreboard at bottom of the screen indicates current score
 
 - Tagging
-  - when player has the flag, opposing players can tag that player,
+  - when player has the flag opposing players can tag that player
   - tagging player returns the flag to its base
   - player doesn't die, just loses flag
 
 - Levels
-  - there is a single maps to choose from
+  - there is a single map to choose from
 
 
 ### What have you accomplished so far?
