@@ -10,9 +10,10 @@ Complete this Form before the third check in. Delete this line from your version
 
 ![Blue ball captures red flag](http://g.recordit.co/kLXFJce85f.gif)
 
-- Did you deviate from the instructions? No.
+- Did you deviate from the instructions?
+  - No.
 - Questions, Comments, Concerns?
-  - lots of if statments!
+  - Lots of if statments!
 
 ### GOAL 2
 
@@ -23,7 +24,7 @@ Complete this Form before the third check in. Delete this line from your version
 - Did you deviate from the instructions?
   - No.
 - Questions, Comments, Concerns?
-  - acceleration can slow down sometimes, depending on what 
+  - Acceleration can slow down sometimes, depending on what 
     monitor we're driving?
 
 ### GOAL 3
@@ -33,31 +34,34 @@ Complete this Form before the third check in. Delete this line from your version
 - Did you deviate from the instructions?
   - No
 - Questions, Comments, Concerns?
-  - simple scoreboard is good
-  - still no way to end the game
+  - Simple scoreboard is good
+  - Still no way to end the game
 
 ### GOAL 4
 
-- Goal:  Can tag/kill flag holders
+- Goal:  Can tag/kill flag holders:
 
 ![Gif of blue ball tagging red ball](http://recordit.co/Ix0D2pO1aJ/gif/notify)
+
+Additional feature: spikes!
 
 ![Gif of ball hitting spikes](http://g.recordit.co/8HaSZzuVsG.gif)
 
  Did you deviate from the instructions?
   - YES: We also implemented a basic system for spikes (beyond expectations)
     which is similar to the tagging system, (with or without
-   flag) with additional feature: the player respawns at original location
+   flag) with additional feature: the player respawns at original location 
+   and flag is returned if needed
 - Questions, Comments, Concerns?
    - would like to implement some animation indicating tag/spike pop
 
 ## Next Steps?
 
 - What do you feel the next steps should be?
-
-- canvas layering might increase game performance (don't have to 
-  re-draw the background every frame)
-- we need to setup some end-game flow
+  - canvas layering might increase game performance (don't have to 
+    re-draw the background every frame)
+  - we need to setup some end-game flow
+  - another map? 
 
 ### General Questions, Comments, Concerns?
 
