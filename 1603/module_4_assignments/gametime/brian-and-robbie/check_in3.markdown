@@ -8,7 +8,7 @@ Complete this Form before the third check in. Delete this line from your version
 
 - Goal: Implement flag and ability for player to capture flag
 
-![Screenshot of flag held by the red ball](http://i.imgur.com/LqHCDNv.png)
+![Blue ball captures red flag](http://g.recordit.co/kLXFJce85f.gif)
 
 - Did you deviate from the instructions? No.
 - Questions, Comments, Concerns?
@@ -18,7 +18,7 @@ Complete this Form before the third check in. Delete this line from your version
 
 -  Goal: Implement ball-ball collisions and acceleration 
 
-![Gif of two colliding](http://g.recordit.co/Fwks5tPzgR.gif)
+![Gif of two balls touching](http://g.recordit.co/Fwks5tPzgR.gif)
 
 - Did you deviate from the instructions?
   - No.
@@ -50,8 +50,6 @@ Complete this Form before the third check in. Delete this line from your version
    flag) with additional feature: the player respawns at original location
 - Questions, Comments, Concerns?
    - would like to implement some animation indicating tag/spike pop
-
-
 
 ## Next Steps?
 
