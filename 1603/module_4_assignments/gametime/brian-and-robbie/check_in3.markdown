@@ -18,7 +18,7 @@ Complete this Form before the third check in. Delete this line from your version
 
 -  Goal: Implement ball-ball collisions and acceleration 
 
-![Gif of two colliding](http://g.recordit.co/T7VA3KrA1E.gif)
+![Gif of two colliding](http://g.recordit.co/Fwks5tPzgR.gif)
 
 - Did you deviate from the instructions?
   - No.
